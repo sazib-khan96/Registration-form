@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+nav ul li a.active{
+    text-decoration: underline;
+    color: blue;
+}
