@@ -4,9 +4,11 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
     return (
-        <div>
+        <div className='w-6xl mx-auto mt-3'>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <main>
+                <Outlet></Outlet>
+            </main>
         </div>
     );
 };
